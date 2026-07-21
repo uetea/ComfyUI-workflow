@@ -3,6 +3,9 @@
 # 创建目录
 mkdir -p /workspace/models/loras
 echo "开始下载 Loras..."
+aria2c -c -x 16 -s 16 "https://cnb.cool/fuliai/comfyui_source/-/lfs/57aecc68b5b123b965895ce282a23b8761ba431e84c9449859df6d87c4e6a871\
+?name=pussyjob_v1.1_merged_ltx23.safetensors" \
+-d "/workspace/models/loras"
 aria2c -c -x 16 -s 16 "https://cnb.cool/ai-models/SulphurAI/Sulphur-2-base/-/lfs/e970f64a2ce5469491fb1714a3fa72c8b606fa82affff0531e836dbc91d31f34\
 ?name=ltx-2.3-22b-distilled-lora-1.1_fro90_ceil72_condsafe.safetensors" \
 -d "/workspace/models/loras"
