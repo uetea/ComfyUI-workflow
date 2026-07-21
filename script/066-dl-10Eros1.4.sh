@@ -4,8 +4,8 @@
 mkdir -p /workspace/models/{checkpoints,text_encoders,loras}
 
 echo "开始下载 10Eros_v1.2_bf16.safetensors..."
-aria2c -c -x 16 -s 16 "https://cnb.cool/ai-models/TenStrip/LTX2.3-10Eros/-/lfs/0661d2bcf90e9515870b3e49b6e2dd5d6aa1594ddbbd4808fd51dcffe8748dd0\
-?name=10Eros_v1.2_bf16.safetensors" \
+aria2c -c -x 16 -s 16 "https://cnb.cool/ai-models/TenStrip/LTX2.3-10Eros/-/lfs/2727f9784fd4fe73f9c89f035e8fbdaa59122947e3daf336d969306fbf6c3a6b\
+?name=10Eros_v1.4_bf16.safetensors" \
 -d "/workspace/models/checkpoints"
 
 aria2c -c -x 16 -s 16 "https://cnb.cool/ai-models/TenStrip/LTX2.3-10Eros/-/lfs/0d76ceae7c1e8cb87dc88c29f37f171819e3bda0d605f196cd5daa1d3cdfd008\
