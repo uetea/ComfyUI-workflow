@@ -6,6 +6,9 @@ mkdir -p /workspace/models/loras
 aria2c -c -x 16 -s 16 "https://cnb.cool/outlu/models/loras/-/lfs/6c4384005d5d2c607ae5913f5a5beddc1c1be7d580ded52abfe42f62e29d8088\
 ?name=LTX-2.3%20-%20Jiggle%20Tits%20v3.2.safetensors" \
 -d "/workspace/models/loras"
+aria2c -c -x 16 -s 16 "https://cnb.cool/ai-models/TenStrip/LTX2.3_DMD_Lora/-/lfs/4543ac32e5a3d1b28dac62a956987cced24311a54710d6e175f6fd607a59c46d\
+?name=LTX2.3_DMD_reshaped_r256.safetensors" \
+-d "/workspace/models/loras"
 aria2c -c -x 16 -s 16 "https://cnb.cool/outlu/models/loras/-/lfs/f67ad8e0151b73736d76444a482432c9458e291174b9c2a26c5ea53bad73a48f\
 ?name=WalkV1_0_LTX23_I2V-000040.comfy.safetensors" \
 -d "/workspace/models/loras"
