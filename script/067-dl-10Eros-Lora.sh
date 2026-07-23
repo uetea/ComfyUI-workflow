@@ -9,6 +9,9 @@ aria2c -c -x 16 -s 16 "https://cnb.cool/outlu/models/loras/-/lfs/6c4384005d5d2c6
 aria2c -c -x 16 -s 16 "https://cnb.cool/ai-models/TenStrip/LTX2.3_DMD_Lora/-/lfs/4543ac32e5a3d1b28dac62a956987cced24311a54710d6e175f6fd607a59c46d\
 ?name=LTX2.3_DMD_reshaped_r256.safetensors" \
 -d "/workspace/models/loras"
+aria2c -c -x 16 -s 16 "https://cnb.cool/ai-models/Alissonerdx/LTX-Best-Face-ID/-/lfs/7aaab2f1bff2af121e0751120ad16a3e443b4223a04b78c51740029d25f17994\
+?name=Best_FaceID_v1.0_LoRA.safetensors" \
+-d "/workspace/models/loras"
 aria2c -c -x 16 -s 16 "https://cnb.cool/outlu/models/loras/-/lfs/f67ad8e0151b73736d76444a482432c9458e291174b9c2a26c5ea53bad73a48f\
 ?name=WalkV1_0_LTX23_I2V-000040.comfy.safetensors" \
 -d "/workspace/models/loras"
